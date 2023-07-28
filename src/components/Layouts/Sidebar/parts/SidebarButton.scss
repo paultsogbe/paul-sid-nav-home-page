@@ -1,0 +1,42 @@
+.sidebar-button{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:17px 15px;
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px;
+    font-weight: 300;
+
+    &:hover{
+        background:#1B2B65;
+        cursor:pointer;
+    }
+
+    >.left{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        color:#CCD2E3;
+        font-size: 19px;
+
+        >svg{
+            width: 27px;
+            height: 27px;
+            margin-bottom:1px;
+        }
+    }
+
+    >.right{
+        padding:6px 9px 5px 9px;
+        color: white;
+        background:#CF3A59;
+        font-weight: 500;
+        border-radius:4px;
+        font-size: 15px;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,77 @@
+.navbar-user{
+    display:flex;
+    align-items: center;
+    gap:18px;
+
+    >.photo{
+        height: 45px;
+        width: 45px;
+        border-radius: 9px;
+        overflow: hidden;
+
+        >img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    >.infos{
+        >h2{
+            font-size: 17px;
+            font-weight: 600;
+        }
+        >h3{
+            font-weight: 400;
+            font-size: 13px;
+            margin-top: 4px;
+        }
+    }
+
+    >.icon{
+        >svg{
+            width: 12px;
+     
+        }
+    }
+}
+
+// cette partie pemet de mettre en place les blocks avant de coder
+// .navbar-user{
+//     display: flex;
+//     align-items: center;
+
+
+//     >.photo{
+//         height: 45px;
+//         width: 45px;
+//         background: indianred;
+//           >.img{
+//    enfant
+//           }
+
+//     }
+
+//     >.infos{
+    // le parent
+//         height: 40px;
+//         width: 140px;
+//         background: green;
+
+
+//          >.h2{
+// enfants
+//          }
+//          >.h3{
+
+//          }
+
+//     }
+
+//     >.icon{
+//         height: 20px;
+//         width: 140px;
+//         background: orange;
+
+//     }
+// }

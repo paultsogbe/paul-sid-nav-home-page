@@ -1,0 +1,6 @@
+@import "../../assets/scss/variables.scss";
+// ces 2 lignes de code permettent de donner la taille de sidebar et navbar
+.content-main{
+    margin-left: $sidebar-main-width;
+    padding-top:$navbar-main-height;
+}

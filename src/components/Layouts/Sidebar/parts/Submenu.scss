@@ -1,0 +1,12 @@
+@import "../../../../assets/scss/colors.scss";
+
+.submenu-sidebar{
+    padding-left: 18px;
+    >h3{
+        color:$cyan;
+        font-size: 13px;
+        font-weight:400;
+        margin-bottom: 10px;
+        padding-left:14px;
+    }
+}

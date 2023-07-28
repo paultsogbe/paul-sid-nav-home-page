@@ -1,0 +1,21 @@
+.navbar-search{
+    display: flex;
+    align-items: center;
+    gap:13px;
+
+    >svg{
+        width: 29px;
+        height: 29px;
+    }
+
+    >input{
+        border:unset;
+        background:unset;
+        font-size: 17px;
+
+        &::placeholder{
+            color:#979797;
+            opacity: 1;
+        }
+    }
+}

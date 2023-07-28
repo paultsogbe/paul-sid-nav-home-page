@@ -1,0 +1,33 @@
+@import "../../../assets/scss/variables.scss";
+
+.navbar-main{
+    height: $navbar-main-height;
+    background: #F8F9FF;
+    position:fixed;
+    left:$sidebar-main-width;
+    right:0;
+    z-index:1;//  ça permet de ne pas superposer les composants(ou position:fixed)
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 42px 0 70px;
+    border-bottom: 1px solid #e9e9ed;
+
+    >.left{
+        display: flex;
+        align-items: center;
+        gap: 31px;
+    }
+
+    >.right{
+        display: flex;
+        align-items: center;
+        gap: 31px;
+    }
+
+    .separator{
+        width: 1px;
+        height: 48px;
+        background:#DADADA;
+    }
+}

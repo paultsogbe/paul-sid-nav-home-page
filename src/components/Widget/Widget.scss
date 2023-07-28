@@ -1,0 +1,39 @@
+@import '../../assets/scss/colors.scss';
+
+.widget {
+	background: white;
+	box-shadow: 0px 5px 10px #f1f2fa;
+	border-radius: 8px;
+
+    >.header{
+		display:flex;
+		align-items: center;
+		justify-content: space-between;
+		padding:20px 16px 20px 23px;
+		border-bottom:1px solid #ededed;
+		
+		>h3{
+			font-size:23px;
+			font-weight: 600;
+		}
+		>button{
+			color: $blue;
+			font-size: 15px;
+			font-weight: 500;
+			display: flex;
+			align-items: center;
+			gap:15px;
+
+			>svg{
+				fill: $blue;
+				transform: rotate(180deg);	// ICI, pour tourner un bouton de chevron vers la droite on fait ça
+				width: 8px;
+			}
+		}
+    }
+
+
+	>.content{
+		padding: 18px 24px 50px 24px;
+	}
+}
